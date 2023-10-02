@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+*.user
+build/
+node_modules/
+package-lock.json
+yarn.lock
+*.log
+*.env

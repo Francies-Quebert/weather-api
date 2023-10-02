@@ -37,8 +37,7 @@ function SearchForm({ onSearchSubmit }: Props) {
         );
         if (checkDataExist && dataList.length >= 1) setDataList([]);
         else setDataList(dataList);
-      });
-    setLoading(false);
+      }).finally(()=>setLoading(false));
   };
 
   // function to handle click on the list
